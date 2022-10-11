@@ -1,16 +1,21 @@
-/**
- * 侧边栏模块
- * 
- * 详情参考：https://vitepress.vuejs.org/guide/theme-sidebar
- */
 export const sidebar = {
-  '/docs/': [
+  '/about/': [
     {
-      text: '快速上手',
-      link: '/docs/hello',
+      text: '文章目录',
+      link: '/about/hello', // default enter link page
       items: [
-        { text: 'hello', link: '/docs/hello' },
-        { text: '欢迎使用', link: '/docs/welcome' }
+        { text: 'hello', link: '/about/hello' },
+        { text: '欢迎使用', link: '/about/welcome' }
+      ]
+    }
+  ],
+  '/vue/': [
+    {
+      text: 'vuejs技术栈系列',
+      link: '/vue/computed',
+      items: [
+        { text: 'computed原理', link: '/vue/computed' },
+        { text: 'dom diff', link: '/vue/domdiff' },
       ]
     }
   ]

@@ -2,12 +2,8 @@ import { defineConfig } from 'vitepress'
 import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
 
-/**
- * 更多配置项参考：https://vitepress.vuejs.org/config/app-configs.html
- */
-
 const config = defineConfig({
-  title: 'vitepress-template',
+  title: 'coderlei‘s blog',
   lastUpdated: true,
 
   themeConfig: {
@@ -20,6 +16,9 @@ const config = defineConfig({
     ],
     nav,
     sidebar
+  },
+  markdown: {
+    lineNumbers: true
   }
 })
 

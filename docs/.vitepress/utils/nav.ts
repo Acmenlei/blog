@@ -1,11 +1,22 @@
-/**
- * 顶部导航栏模块
- * 详细参考：https://vitepress.vuejs.org/guide/theme-nav
- */
 export const nav = [
   {
-    text: '文档',
-    activeMatch: '/docs/',
-    link: '/docs/hello'
-  }
+    text: '算法',
+    activeMatch: '/algorithm/',
+    link: '/algorithm/dfs' // 默认进入的链接
+  },
+  {
+    text: 'Vue相关',
+    activeMatch: '/vue/',
+    link: '/vue/computed' // 默认进入的链接
+  },
+  {
+    text: 'React相关',
+    activeMatch: '/react/',
+    link: '/react/hooks' // 默认进入的链接
+  },
+  {
+    text: '关于我',
+    activeMatch: '/about/',
+    link: '/about/profile' // 默认进入的链接
+  },
 ]
