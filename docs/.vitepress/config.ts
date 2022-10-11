@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
 
-const config = defineConfig({
+export default defineConfig({
   title: 'coderlei‘s blog',
   lastUpdated: true,
 
@@ -19,7 +19,6 @@ const config = defineConfig({
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  outDir: '../../public',
 })
-
-export default config

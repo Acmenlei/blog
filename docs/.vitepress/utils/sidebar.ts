@@ -4,8 +4,7 @@ export const sidebar = {
       text: '文章目录',
       link: '/about/hello', // default enter link page
       items: [
-        { text: 'hello', link: '/about/hello' },
-        { text: '欢迎使用', link: '/about/welcome' }
+        { text: 'hello', link: '/about/profile' },
       ]
     }
   ],
