@@ -1,5 +1,6 @@
 {
   "name": "vitepress-template",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",

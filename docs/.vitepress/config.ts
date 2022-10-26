@@ -3,15 +3,16 @@ import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
 
 export default defineConfig({
-  title: 'coderlei‘s blog',
+  title: '🫡 coderlei‘s blog',
   lastUpdated: true,
 
   themeConfig: {
     lastUpdatedText: '最后更新时间',
+    logo: '',
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Tyh2001/vitepress-template'
+        link: 'https://github.com/acmenlei'
       }
     ],
     nav,
@@ -20,5 +21,5 @@ export default defineConfig({
   markdown: {
     lineNumbers: true
   },
-  outDir: '../../public',
+  base: '/blog/'
 })
